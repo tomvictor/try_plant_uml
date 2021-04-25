@@ -8,5 +8,5 @@ https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml - VS Code plu
 
 # Usage
 
-* alt + p for preview
-* ctrl + p, >Plant UML: Export Current Diagram
+* alt + D for preview
+* ctrl + P, >Plant UML: Export Current Diagram
