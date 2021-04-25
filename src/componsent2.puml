@@ -1,0 +1,22 @@
+@startuml
+title Sample Logic
+
+User --> [Black Box]
+Threshold --> [Black Box]
+Time --> [Black Box]
+[Black Box]--> [Intermediate]
+[Intermediate] --> [Final stage]
+
+catalyst --> [Intermediate]
+
+
+
+
+node foo
+foo --> bar
+foo -[#red]-> bar1 : [#red]
+foo -[#green]-> bar2 : [#green]
+foo -[#blue]-> bar3 : [#blue]
+foo -[#blue;#yellow;#green]-> bar
+
+@enduml
