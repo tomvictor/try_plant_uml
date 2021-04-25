@@ -27,3 +27,8 @@ https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml - VS Code plu
 * State Diagram
 
 ![State Diagram](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/state_simple/Simple%20State%20Diagram.png)
+
+
+* Component Diagram
+
+![Component Diagram](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/component1/component1.png)
