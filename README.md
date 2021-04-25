@@ -22,3 +22,8 @@ https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml - VS Code plu
 * Client/Server
 
 ![Client/Server](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/draft_check_strategy/draft_check_strategy.png)
+
+
+* State Diagram
+
+![State Diagram](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/state_simple/Simple%20State%20Diagram.png)
