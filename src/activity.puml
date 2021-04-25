@@ -1,0 +1,9 @@
+@startuml
+start
+:Learning new language;
+:learn how to print letter;
+:make a hello world snippt;
+:upload to github for
+ future referance;
+stop
+@enduml

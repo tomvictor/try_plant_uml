@@ -1,0 +1,28 @@
+@startuml
+
+
+package Emotions {
+    (Eat) as UC1
+    (Drink) as UC2
+    (Love) as UC3
+    (Care) as UC4
+}
+
+
+
+package Directors {
+    :First Actor: as A1
+    :Second Actor: as A2
+    :Third Actor: as A3
+}
+
+A1 -> UC1
+A1 -> UC2
+A1 -> UC3
+
+:user: -left-> (dummyLeft)
+:user: -right-> (dummyRight)
+:user: -up-> (dummyUp)
+:user: -down-> (dummyDown)
+
+@enduml

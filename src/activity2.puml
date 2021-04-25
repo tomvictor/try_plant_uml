@@ -1,0 +1,22 @@
+@startuml
+start
+
+partition Stage1 {
+    :Make new changes;
+    floating note left
+    This note is on several
+    ====
+    * ""foo()"" is prohibited
+    end note
+    :git pull;
+}
+
+if (conflit exists?) then (Yes)
+:Resolve conflit;
+:Commit changes;
+else (No)
+:Commit new changes;
+endif
+:git push;
+end
+@enduml
