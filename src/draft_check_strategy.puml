@@ -1,0 +1,9 @@
+@startuml
+
+
+Client -> Server: Check draft stragegy
+Server --> Client: Send backs list of draft ids
+Client -> Server: Client senf required draft id
+Server --> Client: Returns the details of requirested draft item
+
+@enduml

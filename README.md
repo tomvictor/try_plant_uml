@@ -14,6 +14,4 @@ https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml - VS Code plu
 # Demos
 
 
-
-
 ![GitFlow Sequence Diagram](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/d68438bdb94aaa2aec0fb1d8c75239e28439c894/out/src/sequence_diagram_git_flow/sequence_diagram_git_flow.png)
