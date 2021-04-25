@@ -1,0 +1,17 @@
+@startuml
+
+
+Feature -> Dev: CI/CD
+note left: this is a first note
+Dev -> Testing: CI/CD
+note right: this is another note
+Testing -> Staging: CI/CD
+Staging -> Master: Manual
+Master -> v1.x.x: Manual
+note left
+a note
+can also be defined
+on several lines
+end note
+
+@enduml
