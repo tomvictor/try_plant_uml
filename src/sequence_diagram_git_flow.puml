@@ -1,5 +1,5 @@
 @startuml
-
+scale 1.5
 
 Feature -> Dev: CI/CD
 note left: this is a first note
