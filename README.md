@@ -19,6 +19,11 @@ https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml - VS Code plu
 
 
 
+
+![GitFlow Sequence Diagram](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/authentication/Authentication%20Flow.png)
+
+
+
 * Client/Server
 
 ![Client/Server](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/draft_check_strategy/draft_check_strategy.png)
