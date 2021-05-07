@@ -1,7 +1,7 @@
 @startuml
 scale 3
 
-title : Authorizarion Flow
+title : Authorization Flow
 
 
 

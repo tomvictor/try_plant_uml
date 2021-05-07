@@ -20,11 +20,11 @@ https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml - VS Code plu
 
 
 
-![GitFlow Sequence Diagram](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/authentication/Authentication%20Flow.png)
+![Authentication Flow](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/authentication/Authentication%20Flow.png)
 
 
 
-![GitFlow Sequence Diagram](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/authorization/Authorizarion%20Flow.png)
+![Authorization Flow](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/authorization/Authorization%20Flow.png)
 
 
 
