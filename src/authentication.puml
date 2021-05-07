@@ -1,0 +1,50 @@
+@startuml
+scale 3
+
+title : Authentication Flow
+
+
+
+Frontend -> AppServer : Login request
+note left
+Frontend send the user
+credentials to app server.
+Eg :
+{
+    "username" : "tom",
+    "password" : "asd123"
+}
+end note
+AppServer -> AuthServer : Authentication Request
+note left
+App Server adds extra informations.
+Eg :
+{
+    "username" : "tom",
+    "password" : "asd123",
+    "client_secret" : "*****",
+    "client_id" : "****"
+}
+end note
+note right
+Validate request
+Generate Tokens
+Eg :
+{
+    "access" : "tom",
+    "refresh" : "asd123",
+    "expiry" : "1234",
+}
+end note
+AuthServer -> AppServer : Tokens
+note left
+If user does not exist, create 
+user with given credentials
+end note
+AppServer -> Frontend : Tokens
+note left
+Store the access tokens
+in the local storage
+end note
+
+@enduml

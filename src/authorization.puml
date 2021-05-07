@@ -1,0 +1,41 @@
+@startuml
+scale 3
+
+title : Authorizarion Flow
+
+
+
+Frontend -> AppServer : Request protected data
+note left
+HTTP request with access token (Header) 
+Eg :
+"Authorization" : "JWT <Access Token>"
+end note
+AppServer -> AuthServer : Authorization Request
+note left
+* Decode the access token (JWT) using
+client secret key. Verify signature.
+* Raise error, if unable to verify
+the token signature. Else send Authorization
+request to Auth Server.
+
+end note
+note right
+* Validate authorization request.
+* Returns user info on successful authorization.
+* On failure, returns Error response.
+end note
+AuthServer -> AppServer : Feedback/User info
+note left
+* Raise Error, if Authorization fails.
+* Otherwise, return the requested data
+Also update the user informations in 
+app server (If any changes exist).
+end note
+AppServer -> Frontend : Response
+note left
+Parse the HTTP status code and process
+Response.
+end note
+
+@enduml
