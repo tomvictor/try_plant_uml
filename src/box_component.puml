@@ -1,0 +1,17 @@
+@startuml
+
+
+
+package "Algorithm" {
+    [Pre Processor] as pre
+    [Transformer] as trans
+    [Encoder] as enc
+}
+
+pre -> trans
+trans -> enc
+
+pre <-left- Input
+enc --> Output
+
+@enduml
