@@ -24,7 +24,7 @@ https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml - VS Code plu
 
 
 
-![Authorization Flow](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/authorization/AuthorizationFlow1.png)
+![Authorization Flow](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/authorization/Authorization%20Flow.png)
 
 
 
