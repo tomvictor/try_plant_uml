@@ -41,3 +41,8 @@ https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml - VS Code plu
 * Component Diagram
 
 ![Component Diagram](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/component1/component1.png)
+
+
+* Component Diagram (Box)
+
+![Component Diagram](https://raw.githubusercontent.com/Tomvictor/try_plant_uml/main/out/src/box_component/box_component.png)
