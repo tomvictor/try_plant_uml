@@ -1,0 +1,42 @@
+@startuml
+
+scale 1.5
+
+title: Demo
+
+
+box "Internal Service" #LightGreen
+participant client
+participant server
+end box
+
+box "third party" #LightGrey
+participant google
+participant another_server
+end box
+
+
+autonumber "<font color=Blue><b> number 0. "
+
+client -> server ++ : request
+
+
+note left
+client send 
+request to server
+end note
+
+server -> another_server ++: second request
+
+note right
+client send 
+request to server
+end note
+
+another_server -> server -- : response
+server -> client --: update UI
+
+client -> google ++:some example request
+google -> client -- : response
+
+@enduml

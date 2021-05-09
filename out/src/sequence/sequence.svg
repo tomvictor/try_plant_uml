@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="552px" preserveAspectRatio="none" style="width:777px;height:552px;" version="1.1" viewBox="0 0 777 552" width="777px" zoomAndPan="magnify"><defs><filter height="300%" id="f13jin3rcfqgwp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="6.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="12.0" dy="12.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="54" lengthAdjust="spacing" textLength="204" x="279" y="92.0566">Example</text><line style="stroke:#A80036;stroke-width:3.0;stroke-dasharray:5.0,5.0;" x1="90" x2="90" y1="234.75" y2="420.75"/><line style="stroke:#A80036;stroke-width:3.0;stroke-dasharray:5.0,5.0;" x1="285" x2="285" y1="234.75" y2="420.75"/><line style="stroke:#A80036;stroke-width:3.0;stroke-dasharray:5.0,5.0;" x1="573" x2="573" y1="234.75" y2="420.75"/><rect fill="#FEFECE" filter="url(#f13jin3rcfqgwp)" height="94.8281" style="stroke:#A80036;stroke-width:4.5;" width="141" x="15" y="124.9219"/><text fill="#000000" font-family="sans-serif" font-size="42" lengthAdjust="spacing" textLength="99" x="36" y="189.5215">client</text><rect fill="#FEFECE" filter="url(#f13jin3rcfqgwp)" height="94.8281" style="stroke:#A80036;stroke-width:4.5;" width="141" x="15" y="417.75"/><text fill="#000000" font-family="sans-serif" font-size="42" lengthAdjust="spacing" textLength="99" x="36" y="482.3496">client</text><rect fill="#FEFECE" filter="url(#f13jin3rcfqgwp)" height="94.8281" style="stroke:#A80036;stroke-width:4.5;" width="162" x="198" y="124.9219"/><text fill="#000000" font-family="sans-serif" font-size="42" lengthAdjust="spacing" textLength="120" x="219" y="189.5215">server</text><rect fill="#FEFECE" filter="url(#f13jin3rcfqgwp)" height="94.8281" style="stroke:#A80036;stroke-width:4.5;" width="162" x="198" y="417.75"/><text fill="#000000" font-family="sans-serif" font-size="42" lengthAdjust="spacing" textLength="120" x="219" y="482.3496">server</text><rect fill="#FEFECE" filter="url(#f13jin3rcfqgwp)" height="94.8281" style="stroke:#A80036;stroke-width:4.5;" width="333" x="402" y="124.9219"/><text fill="#000000" font-family="sans-serif" font-size="42" lengthAdjust="spacing" textLength="291" x="423" y="189.5215">another_server</text><rect fill="#FEFECE" filter="url(#f13jin3rcfqgwp)" height="94.8281" style="stroke:#A80036;stroke-width:4.5;" width="333" x="402" y="417.75"/><text fill="#000000" font-family="sans-serif" font-size="42" lengthAdjust="spacing" textLength="291" x="423" y="482.3496">another_server</text><polygon fill="#A80036" points="249,270.75,279,282.75,249,294.75,261,282.75" style="stroke:#A80036;stroke-width:3.0;"/><line style="stroke:#A80036;stroke-width:3.0;" x1="91.5" x2="267" y1="282.75" y2="282.75"/><polygon fill="#A80036" points="124.5,312.75,94.5,324.75,124.5,336.75,112.5,324.75" style="stroke:#A80036;stroke-width:3.0;"/><line style="stroke:#A80036;stroke-width:3.0;" x1="106.5" x2="282" y1="324.75" y2="324.75"/><polygon fill="#A80036" points="538.5,354.75,568.5,366.75,538.5,378.75,550.5,366.75" style="stroke:#A80036;stroke-width:3.0;"/><line style="stroke:#A80036;stroke-width:3.0;" x1="91.5" x2="556.5" y1="366.75" y2="366.75"/><!--MD5=[c95bf4f6dd0ee288b16e0f4da8404d89]
+@startuml
+
+scale 3
+
+title: Example
+
+client -> server
+server -> client
+client -> another_server
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 15:55:05 IST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: IN
+--></g></svg>
