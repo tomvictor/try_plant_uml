@@ -1,0 +1,39 @@
+@startuml
+scale 2.5
+title "Backend Development Cycle"
+
+[*] --> NewFeatureRequest
+NewFeatureRequest --> Requirement :Requirement gathering
+Requirement --> Development : Sprint plan
+Hold --> Requirement : clarification with BA
+Development --> DevelopmentCompleted : Developer commits
+state Risk #PaleVioletRed
+Development --> Risk
+Development --> Hold : Additional Requirement (During development)
+DevelopmentCompleted --> BackendDemo : Pull Request
+BackendDemo --> TestRelease : Backend Approval
+TestRelease--> Development : BugFix
+TestRelease--> Hold : New feature request
+TestRelease--> Hold : Scope change
+TestRelease--> Staging : QA Approval
+BackendDemo --> Development : PR Rejection
+
+
+Development: Checkout JIRA Task
+NewFeatureRequest : Collect Requirement properly
+NewFeatureRequest : PM Approval
+DevelopmentCompleted : Including unit test
+BackendDemo : Code review
+BackendDemo : Comments
+TestRelease : QA Testing
+Hold : Pause Development
+Hold : Update JIRA
+Hold : Inform PM
+Hold : Checkout New Requirement Ready Task
+Risk: Inform PM
+Risk: Update story point
+Requirement: Requirement Clarity
+
+@enduml
+
+
